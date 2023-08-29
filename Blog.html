@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Blog Epicode</title>
+  </head>
+  <body>
+    <header>
+      <h1>Sviluppo di una pagina web - Blog Epicode</h1>
+      <h2>Primi passi per creare un modello di pagina web html</h2>
+      <!-- Logo Epicode -->
+
+      <img src="logo.svg" alt="" />
+      <p>Epicode il blog dei developers.</p>
+
+      <!-- Menù navigazione senza utilizzo di css -->
+      <nav>
+        <ul>
+          <li><a href="#"> Home</a></li>
+          <li><a href="#">Lavora con noi</a></li>
+          <li><a href="#">Articoli</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <!-- Contenuto principale -->
+    <main>
+      <section>
+        <div>
+          <h2>Come creare i template per i post</h2>
+          <p>Di Mario Rossi - Pubblicato il 25-10-2020</p>
+        </div>
+      </section>
+
+      <!-- Gruppi di blocchi logici -->
+      <section>
+        <div>
+          <h3>
+            La prima cosa da fare è suddividire in blocchi logici la pagina
+          </h3>
+          <p>Le varie parti saranno divise in:</p>
+          <!-- Lista tag -->
+          <ul>
+            <li>Contenuti di instestazioni nel tag &lt;Header&gt;</li>
+            <li>Contenuti centrali presenti nel tag &lt;Main&gt;</li>
+            <li>Contenuti finali presenti nel tag &lt;Footer&gt;</li>
+          </ul>
+          <br />
+        </div>
+      </section>
+
+      <!-- Formattazione del codice CSS -->
+      <section>
+        <div>
+          <h3>Formatazzione del codice</h3>
+          <p>
+            Il testo dell'articolo dovrà essere formattato per identificare
+            tutte le parti da selezionare nel CSS. I passi saranno:
+          </p>
+          <!-- Passagi per utilizzare gli stili CSS -->
+          <ol>
+            <li>
+              Progettare il markup assegnando ad ogni specifico testo il tag
+              appropriato
+            </li>
+            <li>
+              Scrivere l'html dei tag esterni ad ogni specifico testo il tag
+              appropriato
+            </li>
+            <li>Applicare gli stili CSS</li>
+          </ol>
+
+          <p>
+            L'applicazione di stili CSS è cresciuta negli anni fino a
+            raggiungere la diffusione pressochè totale
+          </p>
+          <br />
+        </div>
+      </section>
+
+      <!-- Diffusione dell'utilizzo di css -->
+      <section>
+        <div>
+          <h3>Diffusione dei CSS</h3>
+          <!-- Tabella diffusione dell'utilizzo di css -->
+          <table>
+            <thead>
+              <th>Anno</th>
+              <th>% di utilizzo</th>
+              <th>Supporto browsers</th>
+            </thead>
+
+            <tbody>
+              <tr>
+                <td>2000</td>
+                <td>20%</td>
+                <td>17%</td>
+              </tr>
+
+              <tr>
+                <td>2002</td>
+                <td>35%</td>
+                <td>22%</td>
+              </tr>
+
+              <tr>
+                <td>2004</td>
+                <td>45%</td>
+                <td>42%</td>
+              </tr>
+
+              <tr>
+                <td>2008</td>
+                <td>80%</td>
+                <td>51%</td>
+              </tr>
+            </tbody>
+
+            <tfoot>
+              <tr>
+                <td>2012</td>
+                <td>100%</td>
+                <td>76%</td>
+              </tr>
+            </tfoot>
+          </table>
+
+          <p>
+            Un test di validazione potrà essere fatto al seguente
+            <a href="#">link</a> dedicato allo scopo. Una volta ottimizzato il
+            tutto avremmo raggiunto il nostro obbiettivo ed essere stati dei
+            developers come loro:
+          </p>
+
+          <!-- Video youtube -->
+          <iframe
+            width="560"
+            height="315"
+            src="https://www.youtube.com/embed/pnNCvnlmJXg?si=bxJEzeCrDwXTS4Oa"
+            title="YouTube video player"
+            frameborder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+            allowfullscreen
+          ></iframe>
+        </div>
+      </section>
+
+      <!-- News letter -->
+      <section>
+        <div>
+          <p>
+            Vuoi rimanere aggiornato su altre novità del blog? Iscriviti alla
+            new letter!
+          </p>
+
+          <!-- Input email e invio -->
+          <form>
+            <label for="mail">Inserisci la tua e-mail</label>
+            <input type="email" name="mail" id="" />
+            <input type="submit" value="Iscriviti!" />
+          </form>
+        </div>
+      </section>
+    </main>
+
+    <!-- Articoli correlati -->
+    <aside>
+      <div>
+        <!-- Primo link -->
+        <ul>
+          <li>Articoli correlati</li>
+          <li><a href="#">Validare il codice html</a></li>
+          <li>Categoria develop</li>
+          <li>Data 18-09-20</li>
+        </ul>
+      </div>
+
+      <!-- Secondo link  -->
+      <div>
+        <ul>
+          <li><a href="#">Correggere la sintassi</a></li>
+          <li>Categoria develop</li>
+          <li>Data 16-09-20</li>
+        </ul>
+      </div>
+
+      <!-- Terzo link  -->
+      <div>
+        <ul>
+          <li><a href="#">Meno kb nella pagina</a></li>
+          <li>Categoria develop</li>
+          <li>Data 14-09-20</li>
+        </ul>
+      </div>
+    </aside>
+    <footer>
+      <div>
+        <p>Blog Epicode @2023</p>
+        <p>
+          Testata online di Mario Rossi, registrata con protn.213/2018 - Via
+          Luigi Einaudi 2 - Milano. P.IVA00112233. info@epicode.school
+        </p>
+        <a href="#">link email</a>
+      </div>
+    </footer>
+  </body>
+</html>
